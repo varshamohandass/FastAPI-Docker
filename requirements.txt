@@ -1,0 +1,6 @@
+fastapi==0.110.2
+pydantic==2.7.0
+uvicorn
+typing
+pydantic
+
