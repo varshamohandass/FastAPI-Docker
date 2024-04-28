@@ -17,7 +17,7 @@ class UpdateItem(BaseModel):
 
 # class ItemList(BaseModel):
 #   itemList: List
-
+# adding a comment to check if jenkins connection is working or not
 @app.get("/")
 def index():  
   items = read_items_from_db()
