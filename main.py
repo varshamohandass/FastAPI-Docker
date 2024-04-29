@@ -22,7 +22,7 @@ class UpdateItem(BaseModel):
 def index():  
   items = read_items_from_db()
   return items
-
+# new comment to check
 
 @app.get("/root")
 def root():  
