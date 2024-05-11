@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Query
 from pydantic import BaseModel
 import json
-
+#commenting to check1
 app=FastAPI()
 
 db = "data.json"
